@@ -1,4 +1,7 @@
 module.exports = {
+  env: {
+    node: true
+  },
   extends: [
     'sane',
     'plugin:node/recommended'
