@@ -1,5 +1,8 @@
 module.exports = {
-  extends: 'sane',
+  extends: [
+    'sane',
+    'plugin:node/recommended'
+  ],
   plugins: [
     'json-files'
   ],

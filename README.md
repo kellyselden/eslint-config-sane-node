@@ -7,7 +7,7 @@ A sane JavaScript style: Node.js edition
 ### Installation
 
 ```
-npm install --save-dev eslint-config-sane eslint-config-sane-node eslint-plugin-json-files eslint-plugin-prefer-let
+npm install --save-dev eslint-config-sane eslint-config-sane-node eslint-plugin-json-files eslint-plugin-node eslint-plugin-prefer-let
 ```
 
 Also make sure to add `--ext js,json` to your eslint command to include linting JSON files.
