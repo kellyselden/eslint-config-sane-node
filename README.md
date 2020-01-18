@@ -4,6 +4,12 @@
 
 A sane JavaScript style: Node.js edition
 
+Uses
+
+* [eslint-config-sane](https://github.com/kellyselden/eslint-config-sane)
+* [eslint-plugin-json-files](https://github.com/kellyselden/eslint-plugin-json-files)
+* [eslint-plugin-node](https://github.com/mysticatea/eslint-plugin-node)
+
 ### Installation
 
 ```
