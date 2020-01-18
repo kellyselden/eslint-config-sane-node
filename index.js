@@ -10,6 +10,8 @@ module.exports = {
     'json-files'
   ],
   rules: {
+    'strict': 'error',
+
     'json-files/restrict-ranges': [2, { pinUnstable: true }]
   }
 };
