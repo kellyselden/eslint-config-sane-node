@@ -26,7 +26,6 @@
   "peerDependencies": {
     "eslint-config-sane": "^1.0.0",
     "eslint-plugin-json-files": "^0.8.1",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-prefer-let": "^1.1.0"
+    "eslint-plugin-node": "^11.1.0"
   }
 }
