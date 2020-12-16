@@ -24,7 +24,6 @@
     "index.js"
   ],
   "peerDependencies": {
-    "eslint": ">=5 <7",
     "eslint-config-sane": "^0.8.5",
     "eslint-plugin-json-files": "^0.6.0",
     "eslint-plugin-node": "^9.0.0",
