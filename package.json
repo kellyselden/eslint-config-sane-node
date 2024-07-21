@@ -26,6 +26,6 @@
   "peerDependencies": {
     "eslint-config-sane": ">=1",
     "eslint-plugin-json-files": ">=0.8",
-    "eslint-plugin-n": ">=14"
+    "eslint-plugin-n": ">=15.1"
   }
 }
