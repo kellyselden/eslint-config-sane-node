@@ -18,7 +18,7 @@
   "license": "MIT",
   "devDependencies": {
     "@kellyselden/node-template": "6.5.2",
-    "eslint": "^8.57.1",
+    "eslint": "^9.0.0",
     "eslint-config-sane": "^1.0.2",
     "eslint-config-sane-node": "file:.",
     "eslint-plugin-json-files": "^5.1.0",
