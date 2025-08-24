@@ -4,7 +4,7 @@
   "description": "A sane JavaScript style: Node.js edition",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint . --ext js,json"
+    "lint": "eslint"
   },
   "repository": {
     "type": "git",
@@ -16,14 +16,17 @@
   ],
   "author": "Kelly Selden",
   "license": "MIT",
-  "devDependencies": {
-    "@kellyselden/node-template": "6.5.2",
-    "eslint": "^8.57.1",
-    "eslint-config-sane": "^1.0.2",
-    "eslint-config-sane-node": "file:.",
+  "dependencies": {
+    "@eslint/config-helpers": "0.3.1",
+    "eslint-config-sane": "^2.0.0",
     "eslint-plugin-json-files": "^5.1.0",
     "eslint-plugin-n": "^17.20.0",
-    "eslint-plugin-prefer-let": "^4.0.0",
+    "globals": "^16.3.0"
+  },
+  "devDependencies": {
+    "@kellyselden/node-template": "6.5.2",
+    "eslint": "^9.34.0",
+    "eslint-config-sane-node": "file:.",
     "renovate-config-standard": "2.3.0"
   },
   "bugs": {
@@ -33,11 +36,6 @@
   "files": [
     "index.js"
   ],
-  "peerDependencies": {
-    "eslint-config-sane": ">=1",
-    "eslint-plugin-json-files": ">=0.8",
-    "eslint-plugin-n": ">=15.1"
-  },
   "engines": {
     "node": ">=20.9"
   }
