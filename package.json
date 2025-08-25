@@ -18,16 +18,13 @@
   "license": "MIT",
   "dependencies": {
     "@eslint/config-helpers": "0.3.1",
-    "eslint-config-sane": "^4.0.0",
-    "eslint-plugin-json-files": "^5.1.0",
-    "eslint-plugin-n": "^17.20.0",
     "globals": "^16.3.0"
   },
   "devDependencies": {
     "@kellyselden/node-template": "6.7.0",
     "eslint": "^9.34.0",
     "eslint-config-sane-node": "file:.",
-    "renovate-config-standard": "2.3.0"
+    "renovate-config-standard": "2.4.2"
   },
   "bugs": {
     "url": "https://github.com/kellyselden/eslint-config-sane-node/issues"
