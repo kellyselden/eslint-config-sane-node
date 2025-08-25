@@ -27,7 +27,7 @@
     "@kellyselden/node-template": "6.5.2",
     "eslint": "^9.34.0",
     "eslint-config-sane-node": "file:.",
-    "renovate-config-standard": "2.3.0"
+    "renovate-config-standard": "2.4.2"
   },
   "bugs": {
     "url": "https://github.com/kellyselden/eslint-config-sane-node/issues"
