@@ -1,7 +1,7 @@
 'use strict';
 
 const {
-  defineConfig
+  defineConfig,
 } = require('@eslint/config-helpers');
 
 const jsonFiles = require('eslint-plugin-json-files');
@@ -15,24 +15,24 @@ module.exports = defineConfig([
     files: [
       '**/*.js',
       '**/*.cjs',
-      '**/*.mjs'
+      '**/*.mjs',
     ],
     rules: {
-      'strict': 'error'
-    }
+      'strict': 'error',
+    },
   },
   {
     files: [
-      'package.json'
+      'package.json',
     ],
     plugins: {
-      'json-files': jsonFiles
+      'json-files': jsonFiles,
     },
     processor: 'json-files/json',
     rules: {
       'json-files/restrict-ranges': [2, {
-        pinUnstable: true
-      }]
-    }
-  }
+        pinUnstable: true,
+      }],
+    },
+  },
 ]);
