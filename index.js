@@ -17,12 +17,19 @@ module.exports = defineConfig([
       '**/*.cjs',
       '**/*.mjs'
     ],
+    rules: {
+      'strict': 'error'
+    }
+  },
+  {
+    files: [
+      'package.json'
+    ],
     plugins: {
       'json-files': jsonFiles
     },
+    processor: 'json-files/json',
     rules: {
-      'strict': 'error',
-
       'json-files/restrict-ranges': [2, {
         pinUnstable: true
       }]
