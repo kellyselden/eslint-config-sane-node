@@ -30,9 +30,14 @@ module.exports = defineConfig([
     },
     processor: 'json-files/json',
     rules: {
+      'json-files/eol-last': [2],
+      'json-files/require-engines': [2],
+      'json-files/require-license': [2],
+      'json-files/require-unique-dependency-names': [2],
       'json-files/restrict-ranges': [2, {
         pinUnstable: true,
       }],
+      'json-files/sort-package-json': [2],
     },
   },
 ]);
