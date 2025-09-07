@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-sane-node",
-  "version": "6.0.0",
+  "version": "6.0.1",
   "description": "A sane JavaScript style: Node.js edition",
   "keywords": [
     "eslint",
