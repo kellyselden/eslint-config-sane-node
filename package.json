@@ -31,7 +31,7 @@
     "globals": "^16.3.0"
   },
   "devDependencies": {
-    "@kellyselden/node-template": "6.5.2",
+    "@kellyselden/node-template": "6.9.0",
     "eslint": "^9.34.0",
     "eslint-config-sane-node": "file:.",
     "renovate-config-standard": "2.3.0"
