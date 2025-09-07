@@ -27,8 +27,7 @@
     "@eslint/config-helpers": "0.3.1",
     "eslint-config-sane": "^4.0.0",
     "eslint-plugin-json-files": "^5.1.0",
-    "eslint-plugin-n": "^17.20.0",
-    "globals": "^16.3.0"
+    "eslint-plugin-n": "^17.20.0"
   },
   "devDependencies": {
     "@kellyselden/node-template": "6.9.0",
