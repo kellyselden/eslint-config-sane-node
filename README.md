@@ -13,7 +13,5 @@ Uses
 ### Installation
 
 ```
-npm install --save-dev eslint-config-sane eslint-config-sane-node eslint-plugin-json-files eslint-plugin-n eslint-plugin-prefer-let
+npm install --save-dev eslint-config-sane-node
 ```
-
-Also make sure to add `--ext js,json` to your eslint command to include linting JSON files.
