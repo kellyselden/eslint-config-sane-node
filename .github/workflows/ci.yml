@@ -17,12 +17,38 @@ jobs:
 
     - uses: actions/setup-node@v5
       with:
-        node-version: 20
+        node-version: 22
 
     - run: npm ci
 
     - run: npm run lint
 
+<<<<<<< HEAD
+=======
+  test:
+    needs: lint
+
+    strategy:
+      matrix:
+        os:
+        - ubuntu-latest
+        node:
+        - 22
+
+    runs-on: ${{ matrix.os }}
+
+    steps:
+    - uses: actions/checkout@v5
+
+    - uses: actions/setup-node@v5
+      with:
+        node-version: ${{ matrix.node }}
+
+    - run: npm ci
+
+    - run: npm test
+
+>>>>>>> 3c7129e (v6.11.1...v6.13.0)
   ember-cli-update:
     needs: lint
     if: github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository
@@ -37,7 +63,7 @@ jobs:
 
     - uses: actions/setup-node@v5
       with:
-        node-version: 20
+        node-version: 22
 
     - uses: kellyselden/ember-cli-update-action@v7
       with:
